@@ -10,8 +10,8 @@ Can be configured to be just the icon, icon+text or icon+text+color/pill
 
 1) Put the [Tampermonkey](https://www.tampermonkey.net/) on your browser and then add a new script, copy-paste the [script](https://raw.githubusercontent.com/HDCharles/gh-pr-quick-update/refs/heads/main/gh-pr-quick-update.js) in and then save
 2) the github API will rate limit you at 60 requests per hour without an api token. To add one:
- a) go to github.com > settings > developer settings > personal access tokens > fine-grained tokens 
- b) either click public repositories (no additional permission) or all-repositories + pull-request permissions
- c) copy the PAT
+ - go to github.com > settings > developer settings > personal access tokens > fine-grained tokens
+ - either click public repositories (no additional permission) or all-repositories + pull-request permissions
+ - copy the PAT
 3) you can click on tamper monkey and add your github username and PAT
 
